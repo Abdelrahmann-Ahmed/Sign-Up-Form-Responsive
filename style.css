@@ -1,0 +1,310 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+@media (max-width:828px) {
+    body {
+        background-color:rgb(45, 38, 88);
+    }
+
+
+    .main {
+        width: 100%;
+        height: 650px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 10px;
+    }
+
+    .main2 {
+        width: 100%;
+        height: 650px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .section-1 {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+    }
+    
+    .section-2 {
+        width: 100%;
+        height: 30%;
+        background-image: url("illustration-sign-up-mobile.svg");
+        background-size: cover;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .sec-1 {
+        line-height: 25px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .sec-1 div:not(.head) {
+        margin-top: 10px;
+    }
+
+    .head {
+        width: 100%;
+        font-size: xx-large;
+        font-weight: bold;
+        color:black ;
+        margin-bottom: 20px;
+    }
+    
+    .sec-2 {
+        width: 130%;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+    .img-1 {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        background-image: url("icon-list.svg");
+        background-size: cover;
+        margin-right: 15px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .sec-3 {
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -10px;
+        position: relative;
+    }
+    
+    input {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding-left:  9%;
+    }
+
+    .after {
+        color: red;
+        font-size: small;
+        position: absolute;
+        right: -22px;
+        top: 2px;
+        font-weight: bold;
+        display: none;
+    }
+    
+    button ,.but {
+        background-color: rgb(45, 38, 88);
+        height: 40px;
+        width: 110%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: orangered;
+        color: white;
+        border: 1px solid orangered;
+    }
+
+    .success {
+        width:70px;
+        height:70px;
+        border-radius: 70px;
+        background-image: url("icon-success.svg");
+        background-size: cover;
+        margin-bottom: 80px;
+        margin-top: 70px;
+    }
+
+    .tesuccess {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+
+    .te {
+        line-height: 25px;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:828px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:rgb(45, 38, 88);
+    }
+    
+    .main {
+        width: 750px;
+        height: 480px;
+        margin-top: 120px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .main2 {
+        width:350px;
+        height:400px;
+        padding:40px;
+        background-color: white;
+        border-radius: 10px;
+        display:flex;
+        flex-direction:column;
+        margin-top: 75px;
+    }
+
+    .section-1 {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .section-2 {
+        width: 45%;
+        height: 100%;
+        background-image: url("illustration-sign-up-desktop.svg");
+        background-size: cover;
+        border-radius: 10px;
+    }
+    
+    .sec-1 {
+        width: 100%;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+    
+    .head {
+        width: 120%;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color:black ;
+    }
+    
+    .sec-2 {
+        width: 100%;
+        line-height: 25px;
+    }
+    
+    .img-1 {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background-image: url("icon-list.svg");
+        background-size: cover;
+        margin-right: 20px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .sec-3 {
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -10px;
+        position: relative;
+    }
+    
+    input {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding-left:  9%;
+    }
+
+    .after {
+        color: red;
+        font-size: small;
+        position: absolute;
+        right: -22px;
+        top: 2px;
+        font-weight: bold;
+        display: none;
+    }
+    
+    button ,.but {
+        background-color: rgb(45, 38, 88);
+        height: 50px;
+        width: 110%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: orangered;
+        color: white;
+        border: 1px solid orangered;
+    }
+
+    .success {
+        width:70px;
+        height:70px;
+        border-radius: 70px;
+        background-image: url("icon-success.svg");
+        background-size: cover;
+        margin-bottom: 5px;
+    }
+
+    .tesuccess {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .te {
+        line-height: 25px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
